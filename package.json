@@ -1,0 +1,26 @@
+{
+  "name": "book-explorer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "martian58",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/backend": "^2.2.0",
+    "@neondatabase/serverless": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.2",
+    "nodemon": "^3.1.10"
+  }
+}
