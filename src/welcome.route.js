@@ -7,6 +7,7 @@ router.get("/", (req, res) => {
     <html>
       <head>
         <title>Book Explorer API</title>
+        <link rel="icon" type="image/ico" href="./public/favicon.ico" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <style>
           body {
